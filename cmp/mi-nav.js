@@ -17,6 +17,13 @@ class MiNav extends HTMLElement {
           <a href="index.html">
             Sesión</a>
         </li>
+        <li>
+              
+              <a href="juego.html">Jugar</a>
+              
+              </li>
+
+
       </ul>`;
     this.ul =
       this.querySelector("ul");
@@ -44,11 +51,7 @@ class MiNav extends HTMLElement {
                 <a href=
                   "chat.html">Chatear</a>
               </li>
-              <li>
-              
-              <a href="juego.html">Jugar</a>
-              
-              </li>`;
+              `;
           }
           /* Enlaces para solo
            * administradores.
