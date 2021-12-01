@@ -42,7 +42,7 @@ class MiNav extends HTMLElement {
             html += /* html */
               `<li>
                 <a href=
-                  "chat.html">Chattt</a>
+                  "chat.html">Chatear</a>
               </li>`;
           }
           /* Enlaces para solo
@@ -52,7 +52,7 @@ class MiNav extends HTMLElement {
             "Administrador")) {
             html += /* html */
               `<li>
-                <a href="alumnos.html">Alumnos</a>
+                <a href="alumnos.html">Registrate</a>
               </li>
               <li>
                 <a href="usuarios.html">Usuarios</a>
