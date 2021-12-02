@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css1/style.css">
+  <title>Multiply</title>
+</head>
+
+<body>
+
+  <audio id="myAudio">
+    <source src="rechazo.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <h2><img src="img/Mul.png" width="250" height="100"></h2>
+        <nav>
+          <ul>
+            <li><a href="juego.html">SUMA</a></li>
+            <li><a href="res.html">RESTA</a></li>
+            <li class="current"><a href="mult.html">MULTIPLICACIÓN</a></li>
+            <li><a href="div.html">DIVISIÓN</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="equation">
+      <h1 id="num1" style="color:#FE4A49"></h1>
+      <h1 style="color: #2AB7CA">x</h1>
+      <h1 id="num2" style="color: #b566fe">1</h1>
+      <h1 style="color: #F86624">=</h1>
+      <h1 style="color: gray">?</h1>
+    </div>
+    <div class="answer-options">
+      <div class="options" style="background-color: #4982fe;">
+        <h1 id="option1">1</h1>
+      </div>
+      <div class="options" style="background-color: #2AB7CA;">
+        <h1 id="option2">2</h1>
+      </div>
+      <div class="options" style="background-color: #fe6666;">
+        <h1 id="option3">3</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/multiplicar.js"></script>
+</body>
+
+</html>
