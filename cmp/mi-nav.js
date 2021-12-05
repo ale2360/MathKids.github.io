@@ -43,9 +43,12 @@ class MiNav extends HTMLElement {
           const roles =
             await cargaRoles(
               usu.email);
+
+/*-----------------------------------------------------------*/              
           /* Enlaces para solo
            * para clientes. */
-          if (roles.has("Cliente")) {
+
+          if (roles.has("ul")) {
             html += /* html */
               `<li>
                 <a href=
@@ -53,6 +56,8 @@ class MiNav extends HTMLElement {
               </li>
               `;
           }
+
+/*-----------------------------------------------------------*/
           /* Enlaces para solo
            * administradores.
            */
