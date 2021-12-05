@@ -44,11 +44,11 @@ class MiNav extends HTMLElement {
             await cargaRoles(
               usu.email);
 
-/*-----------------------------------------------------------*/              
+/*-----------------------------------------cliente a ul------------------*/              
           /* Enlaces para solo
            * para clientes. */
 
-          if (roles.has("ul")) {
+          if (roles.has("cliente")) {
             html += /* html */
               `<li>
                 <a href=
