@@ -39,7 +39,7 @@ class MiNav extends HTMLElement {
       usu */
       async cambiaUsuario(usu) {
         if (usu && usu.email) {
-          let html = "";
+          let html ="";
           const roles =
             await cargaRoles(
               usu.email);
