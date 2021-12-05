@@ -48,7 +48,7 @@ class MiNav extends HTMLElement {
           /* Enlaces para solo
            * para clientes. */
 
-          if (roles.has("Usuario")) {
+          if (roles.has("Administrador")) {
             html += /* html */
               `<li>
                 <a href=
