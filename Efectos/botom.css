@@ -17,9 +17,7 @@
 {
     position: absolute; /* cambia el valor de la posicion del boton, estaba en relative*/
     top: 650px; ;
-    bottom: ;
-    right: ;
-    left: ;
+   
     display: inline-flex;
     padding: 20px 30px;
     background: #363636;
