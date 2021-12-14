@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,
+       initial-scale=1.0">
+  <title>
+    Jugador
+  </title>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="js/init.js">
+  </script>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
+  <link rel="stylesheet"
+    href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+  <form name="forma">
+    <mi-nav></mi-nav>
+    <header>
+      <h1>REGISTRATE</h1>
+      <div class="herramientas">
+        <!-- <a
+          href="alumnos.html">
+          Jugadores</a>  se elimina para que los jugadores no 
+          vean a los demas o puedan editarlos-->
+        <button type="submit">
+          Guardar
+        </button>
+      </div>
+    </header>
+    <p>
+      <label>
+        Nombre o nick
+        <input name="matricula"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Edad
+        <input name="nombre"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Grado
+        <input name="telefono"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Pasatiempo favorito
+        <input name="grupo"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Fecha de registro
+        <input name="fecha"
+          type="date" required>
+      </label>
+    </p>
+    <mi-footer></mi-footer>
+  </form>
+  <script type="module"
+    src="js/CtrlAlumnoNuevo.js">
+    </script>
+</body>
+<footer>
+  <ul class="social_icon">
+      <li> <a href="https://github.com/ale2360/MathKids.github.io.git" target="blank"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li> <a href="https://www.facebook.com/math2me" target="blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li> <a href="https://www.instagram.com/math2me/" target="blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li> <a href="calcuDEMO/cal2.html" target="blank"><ion-icon name="calculator-outline"></a></li>
+          <li> <a href="#"><ion-icon name="add-outline"></ion-icon></a></li>
+          <li> <a href="#"><ion-icon name="remove-outline"></ion-icon></a></li>
+      <li> <a href="#"><ion-icon name="close-outline"></ion-icon></a></li>
+     <li> <A><h2><span><i  aria-hidden="true"></i></span>÷MATH 4 KIDS</h2></A></li>
+      
+      
+      
+
+
+
+  </ul>
+ 
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
