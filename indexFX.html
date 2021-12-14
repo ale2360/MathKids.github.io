@@ -4,13 +4,56 @@
 <meta charset="UTF-8">
 <Title>CSS animacion</Title>
 <link rel="stylesheet" type="text/css" href="Efectos/stylex.css">
+<link rel="stylesheet" type="text/css" href="Efectos/botom.css">
 </head>
 <body>
+    
+
     <div class="container">
         <div class="ring"></div>
         <div class="ring"></div>
         <div class="ring"></div>
-        <p>BIENVENIDO...</p>
+        <p>BIENVENIDO A KIDS+4...</p>
+
     </div>
+    <a href="index.html" class="btn">  <span>INICIAR SESIÓN</span> </a>
+    <script>
+        const btn = document.querySelector('.btn');
+        btn.onmousemove=function(e){
+            const x=e.pageX - btn.offsetLeft;
+            const y=e.pageY - btn.offsetTop;
+
+            btn.style.setProperty('--x',x+'px');
+            btn.style.setProperty('--y',x+'px');
+        }
+    </script>
+    
+
+
+   
+
 </body>
+
+<footer>
+    <ul class="social_icon">
+        <li> <a href="https://github.com/ale2360/MathKids.github.io.git" target="blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li> <a href="https://www.facebook.com/math2me" target="blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li> <a href="https://www.instagram.com/math2me/" target="blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li> <a href="calcuDEMO/cal2.html" target="blank"><ion-icon name="calculator-outline"></a></li>
+            <li> <a href="#"><ion-icon name="add-outline"></ion-icon></a></li>
+            <li> <a href="#"><ion-icon name="remove-outline"></ion-icon></a></li>
+        <li> <a href="#"><ion-icon name="close-outline"></ion-icon></a></li>
+       <li> <A><h2><span><i  aria-hidden="true"></i></span>÷MATH 4 KIDS</h2></A></li>
+        
+        
+        
+
+
+
+    </ul>
+   
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+<meta charset="UTF-8">
+<Title>CSS botom</Title>
+<link rel="stylesheet" type="text/css" href="Efectos/botom.css">
+</head>
+
+<body>
+    <a href="#" class="btn">  <span>Regresar</span> </a>
+    <script>
+        const btn = document.querySelector('.btn');
+        btn.onmousemove=function(e){
+            const x=e.pageX - btn.offsetLeft;
+            const y=e.pageY - btn.offsetTop;
+
+            btn.style.setProperty('--x',x+'px');
+            btn.style.setProperty('--y',x+'px');
+        }
+
+
+
+    </script>
+<body>
+</html>

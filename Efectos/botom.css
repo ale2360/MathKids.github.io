@@ -10,25 +10,24 @@
 
 }
 
-body 
-{
-    display: flex;
-    justify-content: center; /*posicion del botom*/
-    align-items: center;
-    min-height: 100vh;
-    background: #222;
-}
+
+
 
 .btn
 {
-    position: relative;
+    position: absolute; /* cambia el valor de la posicion del boton, estaba en relative*/
+    top: 650px; ;
+    bottom: ;
+    right: ;
+    left: ;
     display: inline-flex;
-    padding: 10px 30px;
+    padding: 20px 30px;
     background: #363636;
     color:#fff;
-    text-decoration: none;
+    text-decoration: solid #2196f3;
     letter-spacing: 1px;
     overflow: hidden;
+
 }
 
 .btn span
@@ -63,3 +62,5 @@ body
     width: 300px;
     height: 300px;
 }
+
+
