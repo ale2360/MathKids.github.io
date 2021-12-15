@@ -33,7 +33,7 @@ export function
     valor) {
   valor = valor || "";
   daoAlumno.
-    orderBy("edad").
+    orderBy("nick").
     onSnapshot(
       snap => {
         let html = SIN_ALUMNOS;
