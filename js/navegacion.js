@@ -1,7 +1,7 @@
 export function
   muestraAlumnos() {
   location.href =
-    "juego.html";
+    "alumnos.html";
 }
 
 export function
