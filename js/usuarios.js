@@ -33,7 +33,7 @@ export function
     valor) {
   valor = valor || "";
   daoAlumno.
-    orderBy("nombre").
+    orderBy("edad").
     onSnapshot(
       snap => {
         let html = SIN_ALUMNOS;
@@ -68,7 +68,7 @@ function
     `<option
         value="${cod(doc.id)}"
         ${selected}>
-      ${cod(data.nombre)}
+      ${cod(data.edad)}
     </option>`);
 }
 
