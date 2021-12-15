@@ -21,7 +21,7 @@ const firestore = getFirestore();
 const daoRol = firestore.
   collection("Rol");
 const daoAlumno = firestore.
-  collection("Alumno");
+  collection("jugadores");
 const daoUsuario = firestore.
   collection("Usuario");
 
