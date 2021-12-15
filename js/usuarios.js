@@ -68,7 +68,7 @@ function
     `<option
         value="${cod(doc.id)}"
         ${selected}>
-      ${cod(data.edad)}
+      ${cod(data.nick)}
     </option>`);
 }
 
