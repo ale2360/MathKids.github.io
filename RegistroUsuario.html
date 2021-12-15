@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-  <form  name="forma" >
+  <form name="forma" >
     <mi-nav></mi-nav>
     <header>
       <h1>REGISTRATE</h1>
@@ -37,16 +37,12 @@
           Jugadores</a>  se elimina para que los jugadores no 
           vean a los demas o puedan editarlos-->
           
-          <button type="submit" onClick="refreshPage()" >
+          <button type="submit" name="forma" href="juego.html" >
             Guardar
           </button>
     
       </div>
-      <script>
-        function refreshPage(){
-            window.location.reload();
-        } 
-        </script>
+  
     </header>
     <p>
       <label>
@@ -83,8 +79,12 @@
           type="date" required>
       </label>
     </p>
-    <mi-footer></mi-footer>
+    
   </form>
+  <mi-footer></mi-footer>
+  
+    
+      
   <script type="module"
     src="js/CtrlAlumnoNuevo.js">
     </script>
