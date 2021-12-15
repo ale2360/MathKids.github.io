@@ -5,7 +5,7 @@
 
 /**
  * @typedef {Object} Alumno
- * @property {string} edad
+ * @property {string} nombre
  */
 
 /**
