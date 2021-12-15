@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-  <form  name="forma"  >
+  <form  name="forma" >
     <mi-nav></mi-nav>
     <header>
       <h1>REGISTRATE</h1>
@@ -37,11 +37,16 @@
           Jugadores</a>  se elimina para que los jugadores no 
           vean a los demas o puedan editarlos-->
           
-          <a href="#" >
-            <input onClick="refreshPage()"  type="submit" type="button" value="Guardar">
-        </a>
+          <button type="submit" onClick="refreshPage()" >
+            Guardar
+          </button>
     
       </div>
+      <script>
+        function refreshPage(){
+            window.location.reload();
+        } 
+        </script>
     </header>
     <p>
       <label>
