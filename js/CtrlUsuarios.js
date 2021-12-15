@@ -131,7 +131,7 @@ async function
             Alumno} */
       const data = doc.data();
       return (/* html */
-        `${cod(data.nombre)}`);
+        `${cod(data.edad)}`);
     }
   }
   return " ";

@@ -43,7 +43,7 @@ async function
     // Usuario aceptado.
     forma.email.value =
       usuario.email || "";
-    forma.nombre.value =
+    forma.edad.value =
       usuario.displayName || "";
     avatar.src =
       usuario.photoURL || "";
