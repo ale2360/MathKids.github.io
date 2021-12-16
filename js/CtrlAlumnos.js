@@ -77,7 +77,7 @@ function htmlFila(doc) {
     new URLSearchParams();
   parámetros.append("id", doc.id);
   return ( /* html */
-    `<li>
+    `
       <a class="fila" href=
   "juga.html?${parámetros}">
         <strong class="primario">
@@ -85,7 +85,7 @@ function htmlFila(doc) {
         </strong>
       </a>
      
-    </li>`);
+    `);
 }
 
 /** @param {Error} e */
