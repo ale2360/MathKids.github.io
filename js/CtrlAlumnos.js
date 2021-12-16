@@ -78,12 +78,12 @@ function htmlFila(doc) {
   parámetros.append("id", doc.id);
   return ( /* html */
     `<li>
-      <a class="fila" href=
+      <p class="fila" href=
   "juga.html?${parámetros}">
         <strong class="primario">
           ${nick} ${edad} ${dformat}
         </strong>
-      </a>
+      </p>
      
     </li>`);
 }
