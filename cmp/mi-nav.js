@@ -22,6 +22,11 @@ class MiNav extends HTMLElement {
               <a href="juego.html">Jugar</a>
               
               </li>
+              <li>
+              
+              <a href="indexFX.html">PortadaFX</a>
+              
+              </li>
 
               <li>
               
