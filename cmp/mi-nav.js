@@ -28,12 +28,6 @@ class MiNav extends HTMLElement {
               
               </li>
 
-              <li>
-              
-              <a href="indexFX.html">PortadaFX</a>
-              
-              </li>
-
 
       </ul>`;
     this.ul =
