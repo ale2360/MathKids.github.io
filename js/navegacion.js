@@ -1,7 +1,6 @@
 export function
   muestraAlumnos() {
-  location.href =
-    "jugadoress.html";
+  location.reload();
 }
 
 export function
@@ -13,5 +12,5 @@ export function
 // export function
 //   muestraAlumnos() {
 //   location.href =
-//     "alumnos.html";
+//     "alumnos-jugadoress.html"; 
 // }
